@@ -158,13 +158,13 @@
 
     function downloadCert() {
       const link = document.createElement('a');
-      link.href = 'certific.jpg';
+      link.href = '/certif/mallooka/certific.jpg';
       link.download = 'certific.jpg';
       link.click();
     }
 
     function shareCert() {
-      const certUrl = window.location.origin + "certific.jpg";
+      const certUrl = window.location.origin + "/certif/mallooka/certific.jpg";
       if (navigator.share) {
         navigator.share({
           title: '🎓 شهادتي',
