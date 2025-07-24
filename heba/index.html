@@ -158,13 +158,13 @@
 
     function downloadCert() {
       const link = document.createElement('a');
-      link.href = '../certif/heba.jpg';
+      link.href = 'certif/certif/heba.jpg';
       link.download = '../certif/heba.jpg';
       link.click();
     }
 
     function shareCert() {
-      const certUrl = window.location.origin + "../certif/heba.jpg";
+      const certUrl = window.location.origin + "/certif/certif/heba.jpg";
       if (navigator.share) {
         navigator.share({
           title: '🎓 شهادتي',
