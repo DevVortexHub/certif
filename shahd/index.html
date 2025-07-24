@@ -158,13 +158,13 @@
 
     function downloadCert() {
       const link = document.createElement('a');
-      link.href = '../certif/shahd.jpg';
+      link.href = '/certif/certif/shahd.jpg';
       link.download = '../certif/shahd.jpg';
       link.click();
     }
 
     function shareCert() {
-      const certUrl = window.location.origin + "../certif/shahd.jpg";
+      const certUrl = window.location.origin + "/certif/certif/shahd.jpg";
       if (navigator.share) {
         navigator.share({
           title: '🎓 شهادتي',
