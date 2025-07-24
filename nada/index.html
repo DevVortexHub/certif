@@ -158,13 +158,13 @@
 
     function downloadCert() {
       const link = document.createElement('a');
-      link.href = '../certif/nada.jpg';
+      link.href = '/certif/certif/nada.jpg';
       link.download = '../certif/nada.jpg';
       link.click();
     }
 
     function shareCert() {
-      const certUrl = window.location.origin + "../certif/nada.jpg";
+      const certUrl = window.location.origin + "/certif/certif/nada.jpg";
       if (navigator.share) {
         navigator.share({
           title: '🎓 شهادتي',
